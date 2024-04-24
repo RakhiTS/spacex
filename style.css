@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1div1{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.section1img{
+    height: 585px;
+    width: 100%;
+    position: relative;
+}
+.section2img{
+    height: 585px;
+    width: 100%;
+    position: relative;
+}
+.section1div1p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    color: white;
+}
+.section1div1h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    color:white;
+}
+.section1div1span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    color:white;
+    padding: 15px 30px;
+    border: 2px solid white;
+    
+}
+.section1div2{
+    margin-top: 30px;
+}
+.section2div1{
+    position: absolute;
+    top: 850px;
+    left: 50px;
+}
+.section3div1{
+    position: absolute;
+    top: 1450px;
+    left: 50px;
+}
+.footerdiv{
+    height: 81px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footerspan{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.footerspan1{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 38px;
+    cursor: pointer;
+}
+.logoimage{
+    width: 210px;
+    height:30px;
+    cursor: pointer;
+}
+.headerdiv{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.navli{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+    
+}
+.navliimg{
+    color: white;
+}
+.section1div1span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.navli:hover{
+    text-decoration: underline;
+}
+.footerspan1:hover{
+    opacity: 60%;
+}
+
+
